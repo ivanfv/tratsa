@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="/home/quislant/Ricardo/Research/PostTesis/TransPrecision/scrimp_ff"
+        name="0">
+      <df name="scrimp">
+        <in>scrimp.c</in>
+        <in>scrimp_loc.c</in>
+        <in>scrimp_topK.c</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>/home/quislant/Ricardo/Research/PostTesis/TransPrecision/scrimp_ff/Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>/home/quislant/Ricardo/Research/PostTesis/TransPrecision/scrimp_ff</Elem>
+  </sourceRootList>
+  <projectmakefile>/home/quislant/Ricardo/Research/PostTesis/TransPrecision/scrimp_ff/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O3 -fopenmp"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>/home/quislant/Ricardo/Research/PostTesis/TransPrecision/scrimp_ff</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>/home/quislant/Ricardo/Research/PostTesis/TransPrecision/scrimp_ff/scrimp/scrimp_topK</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>.</pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="/home/quislant/Ricardo/Research/PostTesis/TransPrecision/scrimp_ff/scrimp/scrimp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="/home/quislant/Ricardo/Research/PostTesis/TransPrecision/scrimp_ff/scrimp/scrimp_loc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="/home/quislant/Ricardo/Research/PostTesis/TransPrecision/scrimp_ff/scrimp/scrimp_topK.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

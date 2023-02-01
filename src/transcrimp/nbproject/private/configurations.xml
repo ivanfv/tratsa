@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="/home/quislant/Ricardo/Research/PostTesis/TransPrecision/scrimp_ff"
+        name="0">
+      <df name="configs">
+      </df>
+      <df name="flexfloat">
+        <df name="build">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+            <df name="CMakeTmp">
+            </df>
+            <df name="flexfloat.dir">
+              <df name="src">
+              </df>
+            </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
+          </df>
+        </df>
+        <df name="examples">
+          <in>example01.c</in>
+          <in>example01.cpp</in>
+          <in>example_stats.c</in>
+          <in>example_tracking.c</in>
+        </df>
+        <df name="include">
+          <in>flexfloat.h</in>
+          <in>flexfloat.hpp</in>
+          <in>flexfloat_config.h</in>
+        </df>
+        <df name="src">
+          <in>flexfloat.c</in>
+        </df>
+        <df name="test">
+          <df name="cmake">
+          </df>
+          <in>IEEEHelper.cpp</in>
+          <in>IEEEHelper.h</in>
+          <in>NanInf.cpp</in>
+          <in>arithmetic.cpp</in>
+          <in>assignment.cpp</in>
+          <in>conversion.cpp</in>
+          <in>downward_rounding.cpp</in>
+          <in>exception_flags.cpp</in>
+          <in>nearest_rounding.cpp</in>
+          <in>rel_ops.cpp</in>
+          <in>rounding.cpp</in>
+          <in>sanitize.cpp</in>
+          <in>upward_rounding.cpp</in>
+          <in>value_representation.cpp</in>
+          <in>value_representation_half.cpp</in>
+        </df>
+      </df>
+      <df name="plots">
+      </df>
+      <df name="results">
+      </df>
+      <df name="scrimp">
+        <in>scrimp.c</in>
+        <in>scrimp_loc.c</in>
+        <in>scrimp_topK.c</in>
+      </df>
+      <df name="timeseries">
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>/home/quislant/Ricardo/Research/PostTesis/TransPrecision/scrimp_ff/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
